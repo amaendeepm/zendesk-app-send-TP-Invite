@@ -1,4 +1,4 @@
-# App name
+# Zendesk-App-Send-Trustpilot-Review-Invitation
 
 A Zendesk App where you can send Trustpilot Review invitation for your business domain after Submitting a Zendesk ticket
 
