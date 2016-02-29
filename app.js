@@ -57,7 +57,7 @@
         tokenFail: function (data) {
             console.log("token success ");
             console.log(data);
-            services.notify('ERROR GETTING OAUTH TOKEN: CANNOT Post Review Replies from Zendesk');
+            services.notify('ERROR GETTING OAUTH TOKEN: CANNOT send Trustpilot Review Invite from Zendesk');
         },
         
         doSomething: function () {
@@ -77,7 +77,7 @@
 					},
 					function () {
 						console.log("Failed to send invite");
-						services.notify('Problem with sending Review Invitation', 'error');
+						services.notify('Problem with sending Trustpilot Review Invitation', 'error');
 						done();
 					}
 				);
